@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.smallbussiness.MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/androiddresses"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PANTALOONS"
+        android:padding="20dp"
+        android:textSize="36sp"
+        android:textColor="#880E4F"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-light"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/pacific"
+        android:text="Pacific Mall,Dehradun"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:paddingBottom="20dp"
+        android:paddingRight="16dp"
+        android:paddingLeft="16dp"
+        android:textSize="24sp"
+        android:textColor="#000000"
+        android:fontFamily="sans-serif-light"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/contact"
+        android:text="contact:0135-2738240"
+        android:layout_above="@id/pacific"
+        android:layout_alignParentRight="true"
+        android:paddingBottom="4dp"
+        android:paddingRight="16dp"
+        android:paddingLeft="16dp"
+        android:textSize="24sp"
+        android:textColor="#000000"
+        android:fontFamily="sans-serif-light"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="In Love With Cloth"
+        android:layout_above="@id/contact"
+        android:layout_alignParentRight="true"
+        android:paddingBottom="4dp"
+        android:paddingRight="16dp"
+        android:paddingLeft="16dp"
+        android:textSize="36sp"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-light"
+         />
+
+</RelativeLayout>
