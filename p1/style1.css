@@ -1,0 +1,50 @@
+.images {
+	display: flex;
+	padding: 30px;
+}
+
+
+.image1 {
+	padding-right: 25%;
+}
+
+
+h1 {
+	text-align: center;
+}
+
+
+.blocks {
+	padding: 10px;
+	background-color: teal;
+	border-radius: 10px;
+	margin: 10px auto;
+}
+
+
+h2 {
+	text-align: center;
+}
+
+
+.subblocks {
+	background-color: #F0FFFF;
+	margin: 10px auto;
+	padding: 4px;
+	border-radius: 4px;
+
+}
+
+
+.description {
+	
+	font-size: 2em;
+     padding: 30px;
+	line-height: 50px;
+    
+}
+
+
+body {
+		margin: 0 auto;
+}

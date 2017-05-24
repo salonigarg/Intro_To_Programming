@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="utf-8">
+	<link rel="stylesheet" href="style1.css">
+	<title>p1</title>
+</head>
+<body>
+    
+	<div class="images">
+		<div class="image1">
+			<img src="http://www.html-helper.net/wp-content/uploads/2013/07/HTML.jpg" alt="html image">
+		</div>
+	    <div>
+	    	<img src="http://www.programmers-code.org/wp-content/uploads/2016/05/programming-in-css-448%C3%97283px.jpg" alt="css image">
+	    </div>
+	</div>
+	<h2>INDEX</h2>
+
+	<div class="description">
+		<ol>
+			<li>
+                <a href="#lesson-1">Lesson 1:The Basics Of Web And HTML</a>
+			    <ul>
+				    <li><a href="#lesson-1-1">How The Web Works</a></li>
+				    <li><a href="#lesson-1-2">HTML Basics</a></li>
+				    <li><a href="#lesson-1-3">Tags And Elements</a></li>
+				    <li><a href="#lesson-1-4">Computers Are Stupid</a></li>
+				    <li><a href="#lesson-1-5">Inline vs Block</a></li>
+			    </ul>
+			</li>
+			<li>
+				<a href="#lesson-2">Lesson 2:Creating A Structured Document</a>
+				<ul>
+					<li><a href="#lesson-2-1">The "tree-like structure" of HTML</a></li>
+					<li><a href="#lesson-2-2">HTML-CSS-DOM</a></li>
+				</ul>
+			</li>
+			<li>
+				<a href="#lesson-3">Lesson 3:Box Sizing and Positioning</a>
+				<ul>
+					<li><a href="#lesson-3-1">Box Sizing</a></li>
+					<li><a href="#lesson-3-2">Box Positioning</a></li>
+				</ul>
+		    </li>
+		</ol>
+
+    </div>
+    <h1>IMPORTANT CONCEPTS</h1>
+	<!--Lesson 1 Starts Here-->
+	<div class="blocks">
+		<h2 id="lesson-1" >Lesson 1:The Basics Of Web And HTML</h2>
+		<div class="subblocks">
+			<b id="lesson-1-1">How The Web Works</b>
+			<p>The Web is a bunch of computers that communicate with each other.
+				When we(our browsers) makes request to the server through internet with the help
+				of <em>http</em> protocol,server finds the appropriate HTML document and sends
+                it back to the user's computer where a web browser
+                interprets the page and displays it on the user's screen.
+                <a href="https://www.udacity.com/course/viewer/#!/c-ud000/l-4185478836/e-48329854/m-48480496">This link</a> will take you to the video which will explain you more in detail.
+            </p>
+        </div>
+
+        <div class="subblocks">
+        	<b id="lesson-1-2">HTML Basics</b>
+        	<p>HTML is a standard markup to create web pages and controls the structure of Web page.HTML stans for <em>Hypertext Markup Language</em>.HTML consists of text content,markup,references to other document and link to other pages.<a href="https://www.udacity.com/course/viewer/#!/c-ud000/l-4185478836/m-48724340">This link</a> will take you to the video which will explain you more in detail.
+        	</p>
+        </div>
+
+        <div class="subblocks">
+        	<b id="lesson-1-3">Tags And Elements</b>
+        	<p>
+        		HTML documents are made of HTML elements. When writing HTML, we tell browsers the type of each element by using HTML tags.For example,<em>b tag</em> is used for making the text bold.<a href="https://classroom.udacity.com/courses/ud000/lessons/4182108546/concepts/487234440923#">This link</a> will take you to the video which will explain you more in detail.
+            </p>
+        </div>
+
+        <div class="subblocks">
+        	<b id="lesson-1-4">Computers Are Stupid</b>
+        	<p>
+        		Computers are stupid because they interpret instructions literally. This makes them very unforgiving since a small mistake by a programmer can cause huge problems in a program.
+            </p>
+        </div>
+
+        <div class="subblocks">
+        	<b id="lesson-1-5">Inline vs Block</b>
+        	<p>
+        		HTML elements are either inline or block. Block elements form an <span><b>invisible box</b></span> around the content inside of them.Some of the block elements are p,form and div elements.Examples of inline elements are a,br,img,b and many more.<a href="https://classroom.udacity.com/courses/ud000/lessons/4182108546/concepts/487234380923#">This link</a> will take you to the video which will explain you more in detail.
+        	</p>
+        </div>
+    </div> 
+    <!--Lesson 1 Ends Here-->
+
+    <!--Lesson 2 Starts Here-->
+    <div class="blocks">
+    	<h2 id="lesson-2">Lesson 2:Creating A Structured Document</h2>
+        <div class="subblocks">
+        	<b id="lesson-2-1">The "tree-like structure" of HTML</b>
+        	<p>
+        		"Tree-like structure" comes from the fact that HTML elements can have other elements inside them.We can make HTML document structured by using many tags,one of the example being <em>div</em> tag.Browses turn the HTML tag into elements which forms a tree-like structure called DOM tree.
+        	</p>
+        </div>
+
+        <div class="subblocks">
+        	<b id="lesson-2-2">HTML-CSS-DOM</b>
+        	<p>
+        		HTML:It controls the structure of web page.<br>
+        		CSS:It controls the style of the web page.<br>
+        		DOM(Document Object Model):Browsers turn the HTML tags into elements that forms a tree like structure called DOM.<a href="https://classroom.udacity.com/courses/ud000/lessons/4158148765/concepts/25961388150923#">This video</a> will explain you more in detail.
+            </p>
+        </div>
+    </div>
+    <!--Lesson 2 Ends Here-->
+
+    <!--Lesson 3 Starts Here-->
+    <div class="blocks">
+    	<h2 id="lesson-3">Lesson 3:Box Sizing and Positioning</h2>
+        <div class="subblocks">
+        	<b id="lesson-3-1">Box Sizing</b>
+        	<p>
+        		HTML elements are boxes.Because there are so many component to each box,sometimes it becomes difficult to get the size of box right.So there are two techniques we can use to deal with it:
+            </p>
+        	<ul>
+        			<li>Set sizes in terms of percentages rather than pixcels.</li>
+        			 <li>Set the box-sizing attribute to border-box for every element.</li>
+        	</ul>
+        </div>
+
+        <div class="subblocks">
+        	<b id="lesson-3-2">Box positioning</b>
+        	<p>
+        		As divs are block elements,so by default they take up the entire width of a page.Adding the rule,display:flex to the CSS file will override the behavior  and let the divs appear next to each other.
+            </p>
+        </div>
+    </div>
+</body>
+</html>
